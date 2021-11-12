@@ -1,13 +1,25 @@
-# Set Up For Use on Local Machine (Mac & Postgres)
+#Project_Two 
 
-Here's how to download and run this application on your local mac:
 
-* Fork & Clone
-* `npm i` to install dependencies
-* create database with `createdb express_auth_development` ***OR CHANGE DB NAME TO MATCH THE NAME OF YOUR APP*** _(you'll need to make changes to `config/config.json` too)_
-* if your postgress process requires a username and password, add these to the `config/config.json` file
-* migrate models to your database with `sequelize db:migrate` (This command assumes you have the sequelize-cli installed globally. If you don't, run `npm i sequelize-cli` to install in this project.)
+Full Stack App Project: To Do List
 
+Tech stack plans I plan on using is front end (HTML, CSS, JS) and back end (Node, Express, PostgresQL)
+
+The API I plan to use is ToDoListAPI ('https://developer.todoist.com/rest/v1/#get-a-user-39-s-projects')
+
+MVP Goals: 
+Create an app that is legiable and easy to utliize
+A secure authorization, database, etc. 
+Easy and simple CSS format that reflects the visibility of the app
+Strong backend functions that enables security
+
+
+Stretch Goals: 
+
+
+ 
+Potential Roadblocks: 
+Stringing everything together, in a timely fashion. 
 
 
 
